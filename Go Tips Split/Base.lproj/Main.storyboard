@@ -252,8 +252,17 @@
                                     <constraint firstItem="WGt-oS-DD0" firstAttribute="leading" secondItem="6u6-qB-5Tt" secondAttribute="leading" id="xG7-Tt-j2M"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Split between 2 people, with 10% tip." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w6h-ra-YzZ">
+                                <rect key="frame" x="50" y="305" width="293" height="117"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="117" id="Sfu-Ga-IyM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" red="0.58431372550000005" green="0.60392156860000001" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V5h-aK-yCS">
-                                <rect key="frame" x="96.666666666666686" y="788" width="200" height="54"/>
+                                <rect key="frame" x="96.666666666666686" y="472" width="200" height="54"/>
                                 <color key="backgroundColor" red="0.70573634519999995" green="0.67593940019999998" blue="0.19144590280000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="54" id="0Vt-LV-kUo"/>
@@ -270,26 +279,27 @@
                                     <action selector="recalculatePressed:" destination="HnY-hT-xcT" eventType="touchUpInside" id="A7q-4n-ug4"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Split between 2 people, with 10% tip." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w6h-ra-YzZ">
-                                <rect key="frame" x="50" y="305" width="293" height="117"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fcF-lL-6cY">
+                                <rect key="frame" x="16" y="762" width="361" height="80"/>
+                                <color key="backgroundColor" red="0.97155863050000002" green="0.96615353550000005" blue="0.85018255330000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="117" id="Sfu-Ga-IyM"/>
+                                    <constraint firstAttribute="height" constant="80" id="l2F-g1-9OA"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <color key="textColor" red="0.58431372550000005" green="0.60392156860000001" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="feV-6A-L0P"/>
                         <color key="backgroundColor" red="0.97254901959999995" green="1" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="V5h-aK-yCS" firstAttribute="top" secondItem="w6h-ra-YzZ" secondAttribute="bottom" constant="50" id="0O5-pw-fpn"/>
                             <constraint firstItem="V5h-aK-yCS" firstAttribute="centerX" secondItem="5c8-BY-Lw6" secondAttribute="centerX" id="1NC-zg-OwT"/>
-                            <constraint firstItem="V5h-aK-yCS" firstAttribute="bottom" secondItem="feV-6A-L0P" secondAttribute="bottom" id="IcX-yV-X4H"/>
+                            <constraint firstItem="fcF-lL-6cY" firstAttribute="bottom" secondItem="5c8-BY-Lw6" secondAttribute="bottomMargin" id="Joh-gF-zFw"/>
                             <constraint firstItem="feV-6A-L0P" firstAttribute="trailing" secondItem="w6h-ra-YzZ" secondAttribute="trailing" constant="50" id="KQh-Gb-Rui"/>
                             <constraint firstItem="6u6-qB-5Tt" firstAttribute="trailing" secondItem="feV-6A-L0P" secondAttribute="trailing" id="Nfx-m4-Uwy"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fcF-lL-6cY" secondAttribute="trailing" id="Pho-iF-juu"/>
                             <constraint firstItem="6u6-qB-5Tt" firstAttribute="leading" secondItem="5c8-BY-Lw6" secondAttribute="leading" id="aeL-VZ-dda"/>
                             <constraint firstItem="w6h-ra-YzZ" firstAttribute="leading" secondItem="feV-6A-L0P" secondAttribute="leading" constant="50" id="emH-8E-97d"/>
                             <constraint firstItem="w6h-ra-YzZ" firstAttribute="top" secondItem="6u6-qB-5Tt" secondAttribute="bottom" constant="5" id="sze-vK-9Yl"/>
+                            <constraint firstItem="fcF-lL-6cY" firstAttribute="leading" secondItem="5c8-BY-Lw6" secondAttribute="leadingMargin" id="txD-KM-SKU"/>
                             <constraint firstItem="6u6-qB-5Tt" firstAttribute="top" secondItem="5c8-BY-Lw6" secondAttribute="top" id="zF5-TM-KBq"/>
                         </constraints>
                     </view>
