@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CF39BB92BA5BC9E00101C43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF39BB82BA5BC9E00101C43 /* AppDelegate.swift */; };
+		8CF39BBB2BA5BC9E00101C43 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF39BBA2BA5BC9E00101C43 /* SceneDelegate.swift */; };
+		8CF39BC02BA5BC9E00101C43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CF39BBE2BA5BC9E00101C43 /* Main.storyboard */; };
+		8CF39BC22BA5BCA000101C43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CF39BC12BA5BCA000101C43 /* Assets.xcassets */; };
+		8CF39BC52BA5BCA000101C43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CF39BC32BA5BCA000101C43 /* LaunchScreen.storyboard */; };
+		8CF39BD02BA5BCA000101C43 /* Go_Tips_SplitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF39BCF2BA5BCA000101C43 /* Go_Tips_SplitTests.swift */; };
+		8CF39BDA2BA5BCA000101C43 /* Go_Tips_SplitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF39BD92BA5BCA000101C43 /* Go_Tips_SplitUITests.swift */; };
+		8CF39BDC2BA5BCA000101C43 /* Go_Tips_SplitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF39BDB2BA5BCA000101C43 /* Go_Tips_SplitUITestsLaunchTests.swift */; };
+		8CF39BEA2BA7212200101C43 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF39BE92BA7212200101C43 /* CalculatorViewController.swift */; };
+		8CF39BEC2BA7217900101C43 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF39BEB2BA7217900101C43 /* ResultsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CF39BCC2BA5BCA000101C43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CF39BAD2BA5BC9E00101C43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CF39BB42BA5BC9E00101C43;
+			remoteInfo = "Go Tips Split";
+		};
+		8CF39BD62BA5BCA000101C43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CF39BAD2BA5BC9E00101C43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CF39BB42BA5BC9E00101C43;
+			remoteInfo = "Go Tips Split";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8CF39BB52BA5BC9E00101C43 /* Go Tips Split.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Go Tips Split.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF39BB82BA5BC9E00101C43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CF39BBA2BA5BC9E00101C43 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8CF39BBF2BA5BC9E00101C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CF39BC12BA5BCA000101C43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CF39BC42BA5BCA000101C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CF39BC62BA5BCA000101C43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CF39BCB2BA5BCA000101C43 /* Go Tips SplitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Go Tips SplitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF39BCF2BA5BCA000101C43 /* Go_Tips_SplitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Go_Tips_SplitTests.swift; sourceTree = "<group>"; };
+		8CF39BD52BA5BCA000101C43 /* Go Tips SplitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Go Tips SplitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF39BD92BA5BCA000101C43 /* Go_Tips_SplitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Go_Tips_SplitUITests.swift; sourceTree = "<group>"; };
+		8CF39BDB2BA5BCA000101C43 /* Go_Tips_SplitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Go_Tips_SplitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8CF39BE92BA7212200101C43 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		8CF39BEB2BA7217900101C43 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CF39BB22BA5BC9E00101C43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF39BC82BA5BCA000101C43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF39BD22BA5BCA000101C43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CF39BAC2BA5BC9E00101C43 = {
+			isa = PBXGroup;
+			children = (
+				8CF39BB72BA5BC9E00101C43 /* Go Tips Split */,
+				8CF39BCE2BA5BCA000101C43 /* Go Tips SplitTests */,
+				8CF39BD82BA5BCA000101C43 /* Go Tips SplitUITests */,
+				8CF39BB62BA5BC9E00101C43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CF39BB62BA5BC9E00101C43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CF39BB52BA5BC9E00101C43 /* Go Tips Split.app */,
+				8CF39BCB2BA5BCA000101C43 /* Go Tips SplitTests.xctest */,
+				8CF39BD52BA5BCA000101C43 /* Go Tips SplitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CF39BB72BA5BC9E00101C43 /* Go Tips Split */ = {
+			isa = PBXGroup;
+			children = (
+				8CF39BE82BA720B800101C43 /* Controller */,
+				8CF39BB82BA5BC9E00101C43 /* AppDelegate.swift */,
+				8CF39BBA2BA5BC9E00101C43 /* SceneDelegate.swift */,
+				8CF39BBE2BA5BC9E00101C43 /* Main.storyboard */,
+				8CF39BC12BA5BCA000101C43 /* Assets.xcassets */,
+				8CF39BC32BA5BCA000101C43 /* LaunchScreen.storyboard */,
+				8CF39BC62BA5BCA000101C43 /* Info.plist */,
+			);
+			path = "Go Tips Split";
+			sourceTree = "<group>";
+		};
+		8CF39BCE2BA5BCA000101C43 /* Go Tips SplitTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CF39BCF2BA5BCA000101C43 /* Go_Tips_SplitTests.swift */,
+			);
+			path = "Go Tips SplitTests";
+			sourceTree = "<group>";
+		};
+		8CF39BD82BA5BCA000101C43 /* Go Tips SplitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8CF39BD92BA5BCA000101C43 /* Go_Tips_SplitUITests.swift */,
+				8CF39BDB2BA5BCA000101C43 /* Go_Tips_SplitUITestsLaunchTests.swift */,
+			);
+			path = "Go Tips SplitUITests";
+			sourceTree = "<group>";
+		};
+		8CF39BE82BA720B800101C43 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8CF39BE92BA7212200101C43 /* CalculatorViewController.swift */,
+				8CF39BEB2BA7217900101C43 /* ResultsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CF39BB42BA5BC9E00101C43 /* Go Tips Split */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CF39BDF2BA5BCA000101C43 /* Build configuration list for PBXNativeTarget "Go Tips Split" */;
+			buildPhases = (
+				8CF39BB12BA5BC9E00101C43 /* Sources */,
+				8CF39BB22BA5BC9E00101C43 /* Frameworks */,
+				8CF39BB32BA5BC9E00101C43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Go Tips Split";
+			productName = "Go Tips Split";
+			productReference = 8CF39BB52BA5BC9E00101C43 /* Go Tips Split.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CF39BCA2BA5BCA000101C43 /* Go Tips SplitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CF39BE22BA5BCA000101C43 /* Build configuration list for PBXNativeTarget "Go Tips SplitTests" */;
+			buildPhases = (
+				8CF39BC72BA5BCA000101C43 /* Sources */,
+				8CF39BC82BA5BCA000101C43 /* Frameworks */,
+				8CF39BC92BA5BCA000101C43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CF39BCD2BA5BCA000101C43 /* PBXTargetDependency */,
+			);
+			name = "Go Tips SplitTests";
+			productName = "Go Tips SplitTests";
+			productReference = 8CF39BCB2BA5BCA000101C43 /* Go Tips SplitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8CF39BD42BA5BCA000101C43 /* Go Tips SplitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CF39BE52BA5BCA000101C43 /* Build configuration list for PBXNativeTarget "Go Tips SplitUITests" */;
+			buildPhases = (
+				8CF39BD12BA5BCA000101C43 /* Sources */,
+				8CF39BD22BA5BCA000101C43 /* Frameworks */,
+				8CF39BD32BA5BCA000101C43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CF39BD72BA5BCA000101C43 /* PBXTargetDependency */,
+			);
+			name = "Go Tips SplitUITests";
+			productName = "Go Tips SplitUITests";
+			productReference = 8CF39BD52BA5BCA000101C43 /* Go Tips SplitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CF39BAD2BA5BC9E00101C43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					8CF39BB42BA5BC9E00101C43 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					8CF39BCA2BA5BCA000101C43 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8CF39BB42BA5BC9E00101C43;
+					};
+					8CF39BD42BA5BCA000101C43 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8CF39BB42BA5BC9E00101C43;
+					};
+				};
+			};
+			buildConfigurationList = 8CF39BB02BA5BC9E00101C43 /* Build configuration list for PBXProject "Go Tips Split" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CF39BAC2BA5BC9E00101C43;
+			productRefGroup = 8CF39BB62BA5BC9E00101C43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CF39BB42BA5BC9E00101C43 /* Go Tips Split */,
+				8CF39BCA2BA5BCA000101C43 /* Go Tips SplitTests */,
+				8CF39BD42BA5BCA000101C43 /* Go Tips SplitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CF39BB32BA5BC9E00101C43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF39BC52BA5BCA000101C43 /* LaunchScreen.storyboard in Resources */,
+				8CF39BC22BA5BCA000101C43 /* Assets.xcassets in Resources */,
+				8CF39BC02BA5BC9E00101C43 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF39BC92BA5BCA000101C43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF39BD32BA5BCA000101C43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CF39BB12BA5BC9E00101C43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF39BB92BA5BC9E00101C43 /* AppDelegate.swift in Sources */,
+				8CF39BEA2BA7212200101C43 /* CalculatorViewController.swift in Sources */,
+				8CF39BEC2BA7217900101C43 /* ResultsViewController.swift in Sources */,
+				8CF39BBB2BA5BC9E00101C43 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF39BC72BA5BCA000101C43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF39BD02BA5BCA000101C43 /* Go_Tips_SplitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF39BD12BA5BCA000101C43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF39BDA2BA5BCA000101C43 /* Go_Tips_SplitUITests.swift in Sources */,
+				8CF39BDC2BA5BCA000101C43 /* Go_Tips_SplitUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CF39BCD2BA5BCA000101C43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CF39BB42BA5BC9E00101C43 /* Go Tips Split */;
+			targetProxy = 8CF39BCC2BA5BCA000101C43 /* PBXContainerItemProxy */;
+		};
+		8CF39BD72BA5BCA000101C43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CF39BB42BA5BC9E00101C43 /* Go Tips Split */;
+			targetProxy = 8CF39BD62BA5BCA000101C43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CF39BBE2BA5BC9E00101C43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CF39BBF2BA5BC9E00101C43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CF39BC32BA5BCA000101C43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CF39BC42BA5BCA000101C43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CF39BDD2BA5BCA000101C43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CF39BDE2BA5BCA000101C43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CF39BE02BA5BCA000101C43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NS5Y9M4A6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Go Tips Split/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.users.Go-Tips-Split";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CF39BE12BA5BCA000101C43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NS5Y9M4A6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Go Tips Split/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.users.Go-Tips-Split";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8CF39BE32BA5BCA000101C43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NS5Y9M4A6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.users.Go-Tips-Split.Go-Tips-SplitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Go Tips Split.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Go Tips Split";
+			};
+			name = Debug;
+		};
+		8CF39BE42BA5BCA000101C43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NS5Y9M4A6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.users.Go-Tips-Split.Go-Tips-SplitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Go Tips Split.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Go Tips Split";
+			};
+			name = Release;
+		};
+		8CF39BE62BA5BCA000101C43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NS5Y9M4A6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.users.Go-Tips-Split.Go-Tips-SplitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Go Tips Split";
+			};
+			name = Debug;
+		};
+		8CF39BE72BA5BCA000101C43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NS5Y9M4A6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.users.Go-Tips-Split.Go-Tips-SplitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Go Tips Split";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CF39BB02BA5BC9E00101C43 /* Build configuration list for PBXProject "Go Tips Split" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF39BDD2BA5BCA000101C43 /* Debug */,
+				8CF39BDE2BA5BCA000101C43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CF39BDF2BA5BCA000101C43 /* Build configuration list for PBXNativeTarget "Go Tips Split" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF39BE02BA5BCA000101C43 /* Debug */,
+				8CF39BE12BA5BCA000101C43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CF39BE22BA5BCA000101C43 /* Build configuration list for PBXNativeTarget "Go Tips SplitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF39BE32BA5BCA000101C43 /* Debug */,
+				8CF39BE42BA5BCA000101C43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CF39BE52BA5BCA000101C43 /* Build configuration list for PBXNativeTarget "Go Tips SplitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF39BE62BA5BCA000101C43 /* Debug */,
+				8CF39BE72BA5BCA000101C43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CF39BAD2BA5BC9E00101C43 /* Project object */;
+}
