@@ -62,4 +62,7 @@ class CalculatorViewController: UIViewController {
             destinationVC.split = numberOfPeople
         }
     }
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
 }

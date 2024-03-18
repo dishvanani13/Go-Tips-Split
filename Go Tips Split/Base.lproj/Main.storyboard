@@ -153,7 +153,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="48" id="bqu-UD-S6N"/>
                                         </constraints>
-                                        <color key="textColor" red="0.0" green="0.69019607839999997" blue="0.41960784309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" red="0.70573634519999995" green="0.67593940019999998" blue="0.19144590280000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                     </textField>

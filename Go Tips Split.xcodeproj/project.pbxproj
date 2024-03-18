@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C657C7B2BA77CEF00150E1B /* Gagalin-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8C657C7A2BA77CEF00150E1B /* Gagalin-Regular.otf */; };
 		8CF39BB92BA5BC9E00101C43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF39BB82BA5BC9E00101C43 /* AppDelegate.swift */; };
 		8CF39BBB2BA5BC9E00101C43 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF39BBA2BA5BC9E00101C43 /* SceneDelegate.swift */; };
 		8CF39BC02BA5BC9E00101C43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CF39BBE2BA5BC9E00101C43 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C657C7A2BA77CEF00150E1B /* Gagalin-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gagalin-Regular.otf"; sourceTree = "<group>"; };
 		8CF39BB52BA5BC9E00101C43 /* Go Tips Split.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Go Tips Split.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CF39BB82BA5BC9E00101C43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CF39BBA2BA5BC9E00101C43 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C657C792BA77CCD00150E1B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8C657C7A2BA77CEF00150E1B /* Gagalin-Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		8CF39BAC2BA5BC9E00101C43 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +111,7 @@
 		8CF39BB72BA5BC9E00101C43 /* Go Tips Split */ = {
 			isa = PBXGroup;
 			children = (
+				8C657C792BA77CCD00150E1B /* Fonts */,
 				8CF39BE82BA720B800101C43 /* Controller */,
 				8CF39BB82BA5BC9E00101C43 /* AppDelegate.swift */,
 				8CF39BBA2BA5BC9E00101C43 /* SceneDelegate.swift */,
@@ -242,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C657C7B2BA77CEF00150E1B /* Gagalin-Regular.otf in Resources */,
 				8CF39BC52BA5BCA000101C43 /* LaunchScreen.storyboard in Resources */,
 				8CF39BC22BA5BCA000101C43 /* Assets.xcassets in Resources */,
 				8CF39BC02BA5BC9E00101C43 /* Main.storyboard in Resources */,
