@@ -1,0 +1,1279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		458B188365A307B3C128ABF524D1A3E3 /* GoogleUserMessagingPlatform */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AB43E3A9EED347F1A5A4EAE045FD8AE9 /* Build configuration list for PBXAggregateTarget "GoogleUserMessagingPlatform" */;
+			buildPhases = (
+				E13F79CB7DDEF28E892274F993A056A6 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				7D6386E747512C526152EC05015C3AB1 /* PBXTargetDependency */,
+			);
+			name = GoogleUserMessagingPlatform;
+		};
+		FEA3B3A570634836C0457F3D7CEF1699 /* Google-Mobile-Ads-SDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5AFA28686097D4D6A9DD552442DAD3BE /* Build configuration list for PBXAggregateTarget "Google-Mobile-Ads-SDK" */;
+			buildPhases = (
+				E5879B1A146D320B75202C70537BC4A4 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				8C2F52F1178C49B2A1E10EFE1DBF5DC1 /* PBXTargetDependency */,
+				27A0E29BE302AAF9F6015186EF3D0F17 /* PBXTargetDependency */,
+			);
+			name = "Google-Mobile-Ads-SDK";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		02B24DAAADB96BAC5D9E3184D45ED0EF /* Pods-Go Tips Split-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E3DAB46C95C2BF99B27C9EAD4A47FA /* Pods-Go Tips Split-dummy.m */; };
+		143F5F6775D617D2A0AF1148DA6C4E38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3C61C1B9E2DD2EF549B38C2FF215A584 /* Pods-Go Tips SplitTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5761130CF52E4A2C03C87A8FA697CCE0 /* Pods-Go Tips SplitTests-dummy.m */; };
+		486721C065F9A3EC85EEFE89C7361879 /* Pods-Go Tips SplitTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E38AD59D98F663577A471EAE68C7B7 /* Pods-Go Tips SplitTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AFC1000243C6954FF438CAF78FC23D3 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = F2BEF381737BDC4E4707D8255EC2172E /* PrivacyInfo.xcprivacy */; };
+		62A0DDD3DA949949B4F49E3BD40BC385 /* Pods-Go Tips Split-Go Tips SplitUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A012692007AEEFCDA79DF58063CBE1E /* Pods-Go Tips Split-Go Tips SplitUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96C8173EC945A366408B5F3C70E9AD1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A2E9430DC744CB09A4957B392636BAD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C89437E54DD75237A09DA3D1EF24747A /* Pods-Go Tips Split-Go Tips SplitUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A266A43C3D8FC68CA3391C60224A3788 /* Pods-Go Tips Split-Go Tips SplitUITests-dummy.m */; };
+		E68153A3761F438D73FD70F6A5A0ED2E /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 03051C6226E890C08F78B91403227B05 /* PrivacyInfo.xcprivacy */; };
+		FBB14ADB9EF60DCE19EBE812EA8E1167 /* Pods-Go Tips Split-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97E3A682EAE727BD644FCB99FFF2D135 /* Pods-Go Tips Split-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		010BF4EB108DAF7A8C6EC690DA829931 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 458B188365A307B3C128ABF524D1A3E3;
+			remoteInfo = GoogleUserMessagingPlatform;
+		};
+		0A9EB9EF5F05534E31D308A32FE59978 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEA3B3A570634836C0457F3D7CEF1699;
+			remoteInfo = "Google-Mobile-Ads-SDK";
+		};
+		419A5F1D3D3CE48D358BFCBCC69D2392 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEA3B3A570634836C0457F3D7CEF1699;
+			remoteInfo = "Google-Mobile-Ads-SDK";
+		};
+		6100B9425F97D44A08F3A4682FA0ECA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 333C762DD321C4A23D2150859B8BA8CF;
+			remoteInfo = "Pods-Go Tips Split";
+		};
+		6BDD409ECDB7F30EF19D7CEFF577B6F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 458B188365A307B3C128ABF524D1A3E3;
+			remoteInfo = GoogleUserMessagingPlatform;
+		};
+		7AA0F0B847D8AC37DA1275FCCB835893 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36FD0958A0EC4A0FCF599E9B22719B03;
+			remoteInfo = "Google-Mobile-Ads-SDK-GoogleMobileAdsResources";
+		};
+		8E05A49083F79A8BE58784CB2F52A3BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63A7C675C13F87669AF56006D943998B;
+			remoteInfo = "GoogleUserMessagingPlatform-UserMessagingPlatformResources";
+		};
+		F92B383CE2EA2DFC948FF5D70FE0450A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 458B188365A307B3C128ABF524D1A3E3;
+			remoteInfo = GoogleUserMessagingPlatform;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02F81532F1965124CF4ABA8FDB52D45D /* GoogleMobileAds.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = GoogleMobileAds.xcframework; path = Frameworks/GoogleMobileAdsFramework/GoogleMobileAds.xcframework; sourceTree = "<group>"; };
+		03051C6226E890C08F78B91403227B05 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = "Frameworks/GoogleMobileAdsFramework/GoogleMobileAds.xcframework/ios-arm64/GoogleMobileAds.framework/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
+		0682E85FFE07DD6628486D96F88826F1 /* Pods-Go Tips Split-Go Tips SplitUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Go Tips Split-Go Tips SplitUITests-resources.sh"; sourceTree = "<group>"; };
+		0D6DC0F18102942F2810201588539ACE /* Pods-Go Tips Split.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Go Tips Split.debug.xcconfig"; sourceTree = "<group>"; };
+		17B65E8D2CE539B50FDAFE6FB91F9AF4 /* Pods-Go Tips Split-Go Tips SplitUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Go Tips Split-Go Tips SplitUITests"; path = Pods_Go_Tips_Split_Go_Tips_SplitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19466144342C9D8AB7676A2D78EDBE3F /* Pods-Go Tips Split-Go Tips SplitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Go Tips Split-Go Tips SplitUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1BCB130F6345CD66EA7C2AE93634C3C4 /* Pods-Go Tips Split-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Go Tips Split-acknowledgements.markdown"; sourceTree = "<group>"; };
+		209756EE1B5E1C25215E16CE2606047E /* Pods-Go Tips SplitTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Go Tips SplitTests.modulemap"; sourceTree = "<group>"; };
+		22C68AF5014D42B1A88F87164F1270AF /* Pods-Go Tips Split.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Go Tips Split.release.xcconfig"; sourceTree = "<group>"; };
+		27E38AD59D98F663577A471EAE68C7B7 /* Pods-Go Tips SplitTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Go Tips SplitTests-umbrella.h"; sourceTree = "<group>"; };
+		2C26D49CEC435C92A8D93D8696294C92 /* Pods-Go Tips SplitTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Go Tips SplitTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		30412550F38829CFDA85BC9C122A7E1D /* Pods-Go Tips Split-Go Tips SplitUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Go Tips Split-Go Tips SplitUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3600CF801464FDEDB3BFFC55878D2CB5 /* ResourceBundle-UserMessagingPlatformResources-GoogleUserMessagingPlatform-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-UserMessagingPlatformResources-GoogleUserMessagingPlatform-Info.plist"; sourceTree = "<group>"; };
+		3998091512768CD07733CB4F02B4BD9F /* Google-Mobile-Ads-SDK-GoogleMobileAdsResources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Google-Mobile-Ads-SDK-GoogleMobileAdsResources"; path = GoogleMobileAdsResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E684C075227AF57FA3B1D341CC38A93 /* Pods-Go Tips Split-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Go Tips Split-resources.sh"; sourceTree = "<group>"; };
+		522F046ED4EFADE383A44650DA2BE8AD /* Pods-Go Tips Split-Go Tips SplitUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Go Tips Split-Go Tips SplitUITests-Info.plist"; sourceTree = "<group>"; };
+		5761130CF52E4A2C03C87A8FA697CCE0 /* Pods-Go Tips SplitTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Go Tips SplitTests-dummy.m"; sourceTree = "<group>"; };
+		5A012692007AEEFCDA79DF58063CBE1E /* Pods-Go Tips Split-Go Tips SplitUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Go Tips Split-Go Tips SplitUITests-umbrella.h"; sourceTree = "<group>"; };
+		5B44B3E8FBBAC3CC0699E2540B39466B /* Pods-Go Tips SplitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Go Tips SplitTests-Info.plist"; sourceTree = "<group>"; };
+		662F5A31DEAC129C8588176D22575027 /* UserMessagingPlatform.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = UserMessagingPlatform.xcframework; path = Frameworks/Release/UserMessagingPlatform.xcframework; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73AFC648C9FA4AB7FBD6D450CC6CAD93 /* Google-Mobile-Ads-SDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Google-Mobile-Ads-SDK.release.xcconfig"; sourceTree = "<group>"; };
+		7BC6E2105D783BCAB192E19D1766B88D /* Pods-Go Tips SplitTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Go Tips SplitTests"; path = Pods_Go_Tips_SplitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BE8D7A0ACC44C291DF3DB2E959A0377 /* GoogleUserMessagingPlatform-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "GoogleUserMessagingPlatform-xcframeworks.sh"; sourceTree = "<group>"; };
+		851FCF0116C03C2D435C0BBC6DA2B3E7 /* Pods-Go Tips Split-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Go Tips Split-Info.plist"; sourceTree = "<group>"; };
+		871F965A97B01247B73F41F22A8C9A68 /* Pods-Go Tips SplitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Go Tips SplitTests.release.xcconfig"; sourceTree = "<group>"; };
+		8A377C18F92A8A511869ADA54B5652D2 /* GoogleUserMessagingPlatform-UserMessagingPlatformResources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "GoogleUserMessagingPlatform-UserMessagingPlatformResources"; path = UserMessagingPlatformResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		9355E30D3F83D3EE8EACC65E8BEFA7E6 /* Pods-Go Tips Split */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Go Tips Split"; path = Pods_Go_Tips_Split.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97E3A682EAE727BD644FCB99FFF2D135 /* Pods-Go Tips Split-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Go Tips Split-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A266A43C3D8FC68CA3391C60224A3788 /* Pods-Go Tips Split-Go Tips SplitUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Go Tips Split-Go Tips SplitUITests-dummy.m"; sourceTree = "<group>"; };
+		A4724C637ABEA38C56263BBD8C722514 /* Pods-Go Tips Split-Go Tips SplitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Go Tips Split-Go Tips SplitUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AA7D9149E03544BB04D3F25790616030 /* Pods-Go Tips Split-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Go Tips Split-acknowledgements.plist"; sourceTree = "<group>"; };
+		B179301F53D6A3A126E93794AE18907D /* Google-Mobile-Ads-SDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Google-Mobile-Ads-SDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		B9E3DAB46C95C2BF99B27C9EAD4A47FA /* Pods-Go Tips Split-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Go Tips Split-dummy.m"; sourceTree = "<group>"; };
+		BE8DFFE989BECD3A7680D610B6685FD8 /* Google-Mobile-Ads-SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Google-Mobile-Ads-SDK.debug.xcconfig"; sourceTree = "<group>"; };
+		C035FFA3DB2EA9C422AB62C864798D34 /* ResourceBundle-GoogleMobileAdsResources-Google-Mobile-Ads-SDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GoogleMobileAdsResources-Google-Mobile-Ads-SDK-Info.plist"; sourceTree = "<group>"; };
+		D3F76929A542CB92C1A0267A01217B44 /* GoogleUserMessagingPlatform.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleUserMessagingPlatform.debug.xcconfig; sourceTree = "<group>"; };
+		D78C7BF53DD3608E2C2338EAACD97B05 /* Pods-Go Tips Split-Go Tips SplitUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Go Tips Split-Go Tips SplitUITests.modulemap"; sourceTree = "<group>"; };
+		E7C55A2944FA8762967DAEFE15EE5DD4 /* Pods-Go Tips Split.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Go Tips Split.modulemap"; sourceTree = "<group>"; };
+		EE6501A63F8579B89CEEE3AECB54ABCC /* Pods-Go Tips SplitTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Go Tips SplitTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EED782F77DDF445B1C304AE8CF4C2B12 /* Pods-Go Tips Split-Go Tips SplitUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Go Tips Split-Go Tips SplitUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F2BEF381737BDC4E4707D8255EC2172E /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = "Frameworks/Release/UserMessagingPlatform.xcframework/ios-arm64/UserMessagingPlatform.framework/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
+		F62684ABBE16D1827C388A9470A1957E /* GoogleUserMessagingPlatform.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleUserMessagingPlatform.release.xcconfig; sourceTree = "<group>"; };
+		FDFB6D404B331B1DF6A24C5493213885 /* Pods-Go Tips SplitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Go Tips SplitTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EA550AEA1F466929A358289D07A5D2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C8173EC945A366408B5F3C70E9AD1E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		327FC98F0F2D72777BBFCF549D3CF62A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2E9430DC744CB09A4957B392636BAD7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DC54A226BCCEF7725E5F070A51F37EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				143F5F6775D617D2A0AF1148DA6C4E38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E90E84413790C4302E4365E01E0ADED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE1205635128DF4096321BAF82DAEFA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11BA09EC7FBC460B1661DC94791F7F19 /* GoogleUserMessagingPlatform */ = {
+			isa = PBXGroup;
+			children = (
+				FABFE75267495065D6E1C8CE9EE6A1D1 /* Frameworks */,
+				20F5B0E421D02CC211528CDFD8DA3FB4 /* Resources */,
+				B81EBAB7C38CAB6203A24A6BF9D93F0D /* Support Files */,
+			);
+			name = GoogleUserMessagingPlatform;
+			path = GoogleUserMessagingPlatform;
+			sourceTree = "<group>";
+		};
+		20F5B0E421D02CC211528CDFD8DA3FB4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F2BEF381737BDC4E4707D8255EC2172E /* PrivacyInfo.xcprivacy */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6DE0E4CF8E07315F97DB296D1B511ACA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B179301F53D6A3A126E93794AE18907D /* Google-Mobile-Ads-SDK-xcframeworks.sh */,
+				BE8DFFE989BECD3A7680D610B6685FD8 /* Google-Mobile-Ads-SDK.debug.xcconfig */,
+				73AFC648C9FA4AB7FBD6D450CC6CAD93 /* Google-Mobile-Ads-SDK.release.xcconfig */,
+				C035FFA3DB2EA9C422AB62C864798D34 /* ResourceBundle-GoogleMobileAdsResources-Google-Mobile-Ads-SDK-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Google-Mobile-Ads-SDK";
+			sourceTree = "<group>";
+		};
+		72795F248AFC41EC693AA93057C740E2 /* Pods-Go Tips SplitTests */ = {
+			isa = PBXGroup;
+			children = (
+				209756EE1B5E1C25215E16CE2606047E /* Pods-Go Tips SplitTests.modulemap */,
+				2C26D49CEC435C92A8D93D8696294C92 /* Pods-Go Tips SplitTests-acknowledgements.markdown */,
+				EE6501A63F8579B89CEEE3AECB54ABCC /* Pods-Go Tips SplitTests-acknowledgements.plist */,
+				5761130CF52E4A2C03C87A8FA697CCE0 /* Pods-Go Tips SplitTests-dummy.m */,
+				5B44B3E8FBBAC3CC0699E2540B39466B /* Pods-Go Tips SplitTests-Info.plist */,
+				27E38AD59D98F663577A471EAE68C7B7 /* Pods-Go Tips SplitTests-umbrella.h */,
+				FDFB6D404B331B1DF6A24C5493213885 /* Pods-Go Tips SplitTests.debug.xcconfig */,
+				871F965A97B01247B73F41F22A8C9A68 /* Pods-Go Tips SplitTests.release.xcconfig */,
+			);
+			name = "Pods-Go Tips SplitTests";
+			path = "Target Support Files/Pods-Go Tips SplitTests";
+			sourceTree = "<group>";
+		};
+		7FA3A09607FE41EEC4664652CD712EE5 /* Pods-Go Tips Split-Go Tips SplitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D78C7BF53DD3608E2C2338EAACD97B05 /* Pods-Go Tips Split-Go Tips SplitUITests.modulemap */,
+				30412550F38829CFDA85BC9C122A7E1D /* Pods-Go Tips Split-Go Tips SplitUITests-acknowledgements.markdown */,
+				EED782F77DDF445B1C304AE8CF4C2B12 /* Pods-Go Tips Split-Go Tips SplitUITests-acknowledgements.plist */,
+				A266A43C3D8FC68CA3391C60224A3788 /* Pods-Go Tips Split-Go Tips SplitUITests-dummy.m */,
+				522F046ED4EFADE383A44650DA2BE8AD /* Pods-Go Tips Split-Go Tips SplitUITests-Info.plist */,
+				0682E85FFE07DD6628486D96F88826F1 /* Pods-Go Tips Split-Go Tips SplitUITests-resources.sh */,
+				5A012692007AEEFCDA79DF58063CBE1E /* Pods-Go Tips Split-Go Tips SplitUITests-umbrella.h */,
+				19466144342C9D8AB7676A2D78EDBE3F /* Pods-Go Tips Split-Go Tips SplitUITests.debug.xcconfig */,
+				A4724C637ABEA38C56263BBD8C722514 /* Pods-Go Tips Split-Go Tips SplitUITests.release.xcconfig */,
+			);
+			name = "Pods-Go Tips Split-Go Tips SplitUITests";
+			path = "Target Support Files/Pods-Go Tips Split-Go Tips SplitUITests";
+			sourceTree = "<group>";
+		};
+		832A9E7D43417C5467A6C028FEEDAEBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02F81532F1965124CF4ABA8FDB52D45D /* GoogleMobileAds.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9095E8F21A2C3F11FE5E899E3DD98BFD /* Pods-Go Tips Split */ = {
+			isa = PBXGroup;
+			children = (
+				E7C55A2944FA8762967DAEFE15EE5DD4 /* Pods-Go Tips Split.modulemap */,
+				1BCB130F6345CD66EA7C2AE93634C3C4 /* Pods-Go Tips Split-acknowledgements.markdown */,
+				AA7D9149E03544BB04D3F25790616030 /* Pods-Go Tips Split-acknowledgements.plist */,
+				B9E3DAB46C95C2BF99B27C9EAD4A47FA /* Pods-Go Tips Split-dummy.m */,
+				851FCF0116C03C2D435C0BBC6DA2B3E7 /* Pods-Go Tips Split-Info.plist */,
+				4E684C075227AF57FA3B1D341CC38A93 /* Pods-Go Tips Split-resources.sh */,
+				97E3A682EAE727BD644FCB99FFF2D135 /* Pods-Go Tips Split-umbrella.h */,
+				0D6DC0F18102942F2810201588539ACE /* Pods-Go Tips Split.debug.xcconfig */,
+				22C68AF5014D42B1A88F87164F1270AF /* Pods-Go Tips Split.release.xcconfig */,
+			);
+			name = "Pods-Go Tips Split";
+			path = "Target Support Files/Pods-Go Tips Split";
+			sourceTree = "<group>";
+		};
+		9DF73883B330BC99A015A6240FF1DF74 /* Google-Mobile-Ads-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				832A9E7D43417C5467A6C028FEEDAEBD /* Frameworks */,
+				E3710CD13C7237016D2943F815F1AF7C /* Resources */,
+				6DE0E4CF8E07315F97DB296D1B511ACA /* Support Files */,
+			);
+			name = "Google-Mobile-Ads-SDK";
+			path = "Google-Mobile-Ads-SDK";
+			sourceTree = "<group>";
+		};
+		A5E45E22A808C95505627F337C7DC97D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3998091512768CD07733CB4F02B4BD9F /* Google-Mobile-Ads-SDK-GoogleMobileAdsResources */,
+				8A377C18F92A8A511869ADA54B5652D2 /* GoogleUserMessagingPlatform-UserMessagingPlatformResources */,
+				9355E30D3F83D3EE8EACC65E8BEFA7E6 /* Pods-Go Tips Split */,
+				17B65E8D2CE539B50FDAFE6FB91F9AF4 /* Pods-Go Tips Split-Go Tips SplitUITests */,
+				7BC6E2105D783BCAB192E19D1766B88D /* Pods-Go Tips SplitTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B27C1170FB46E80AFE7516CA51613A7D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9095E8F21A2C3F11FE5E899E3DD98BFD /* Pods-Go Tips Split */,
+				7FA3A09607FE41EEC4664652CD712EE5 /* Pods-Go Tips Split-Go Tips SplitUITests */,
+				72795F248AFC41EC693AA93057C740E2 /* Pods-Go Tips SplitTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B81EBAB7C38CAB6203A24A6BF9D93F0D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BE8D7A0ACC44C291DF3DB2E959A0377 /* GoogleUserMessagingPlatform-xcframeworks.sh */,
+				D3F76929A542CB92C1A0267A01217B44 /* GoogleUserMessagingPlatform.debug.xcconfig */,
+				F62684ABBE16D1827C388A9470A1957E /* GoogleUserMessagingPlatform.release.xcconfig */,
+				3600CF801464FDEDB3BFFC55878D2CB5 /* ResourceBundle-UserMessagingPlatformResources-GoogleUserMessagingPlatform-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleUserMessagingPlatform";
+			sourceTree = "<group>";
+		};
+		BD8403EDA9C5E3E2B560A01140F4B72C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DF73883B330BC99A015A6240FF1DF74 /* Google-Mobile-Ads-SDK */,
+				11BA09EC7FBC460B1661DC94791F7F19 /* GoogleUserMessagingPlatform */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				BD8403EDA9C5E3E2B560A01140F4B72C /* Pods */,
+				A5E45E22A808C95505627F337C7DC97D /* Products */,
+				B27C1170FB46E80AFE7516CA51613A7D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3710CD13C7237016D2943F815F1AF7C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				03051C6226E890C08F78B91403227B05 /* PrivacyInfo.xcprivacy */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FABFE75267495065D6E1C8CE9EE6A1D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				662F5A31DEAC129C8588176D22575027 /* UserMessagingPlatform.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		213F82FADA95530F2669DB741CE783A2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB14ADB9EF60DCE19EBE812EA8E1167 /* Pods-Go Tips Split-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9C7C2DC54104D212FBC685B0437F7C2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62A0DDD3DA949949B4F49E3BD40BC385 /* Pods-Go Tips Split-Go Tips SplitUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA430CC8710BD081CC36A89756829C6D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				486721C065F9A3EC85EEFE89C7361879 /* Pods-Go Tips SplitTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		19FF87B931AE1C0527952E7F7EBC9324 /* Pods-Go Tips SplitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ECD3E57FC060DF7315CBEE01258D4CA /* Build configuration list for PBXNativeTarget "Pods-Go Tips SplitTests" */;
+			buildPhases = (
+				FA430CC8710BD081CC36A89756829C6D /* Headers */,
+				3678D3C6C836408764DA9FEB8968388D /* Sources */,
+				7DC54A226BCCEF7725E5F070A51F37EA /* Frameworks */,
+				C961273CEDCEA40534430F3E846109BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43AE07024803B67C6F60E8D76FD5B88B /* PBXTargetDependency */,
+			);
+			name = "Pods-Go Tips SplitTests";
+			productName = Pods_Go_Tips_SplitTests;
+			productReference = 7BC6E2105D783BCAB192E19D1766B88D /* Pods-Go Tips SplitTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		333C762DD321C4A23D2150859B8BA8CF /* Pods-Go Tips Split */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9758644FD92F35D113D0EEBD02ADFB6B /* Build configuration list for PBXNativeTarget "Pods-Go Tips Split" */;
+			buildPhases = (
+				213F82FADA95530F2669DB741CE783A2 /* Headers */,
+				DF9C7EA7B0F4244599012AFD65F713E9 /* Sources */,
+				327FC98F0F2D72777BBFCF549D3CF62A /* Frameworks */,
+				8E6B166A7D17229BE98648A23E427445 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5196225EA19AD0827A9008B9CC3B3B9D /* PBXTargetDependency */,
+				5B6EAAB7482396FA1B9D70F3810CA338 /* PBXTargetDependency */,
+			);
+			name = "Pods-Go Tips Split";
+			productName = Pods_Go_Tips_Split;
+			productReference = 9355E30D3F83D3EE8EACC65E8BEFA7E6 /* Pods-Go Tips Split */;
+			productType = "com.apple.product-type.framework";
+		};
+		36FD0958A0EC4A0FCF599E9B22719B03 /* Google-Mobile-Ads-SDK-GoogleMobileAdsResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67B00122EA65638BC3551937E4052599 /* Build configuration list for PBXNativeTarget "Google-Mobile-Ads-SDK-GoogleMobileAdsResources" */;
+			buildPhases = (
+				0EEF75BDBA86CBD63112E30636131D87 /* Sources */,
+				E90E84413790C4302E4365E01E0ADED0 /* Frameworks */,
+				4AFF56F4AC5CA1711FD6D2EFCD7359EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Google-Mobile-Ads-SDK-GoogleMobileAdsResources";
+			productName = GoogleMobileAdsResources;
+			productReference = 3998091512768CD07733CB4F02B4BD9F /* Google-Mobile-Ads-SDK-GoogleMobileAdsResources */;
+			productType = "com.apple.product-type.bundle";
+		};
+		63A7C675C13F87669AF56006D943998B /* GoogleUserMessagingPlatform-UserMessagingPlatformResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57995FBA13A1EC48B95541441236618A /* Build configuration list for PBXNativeTarget "GoogleUserMessagingPlatform-UserMessagingPlatformResources" */;
+			buildPhases = (
+				82ACFAADA7761999E69404887C237D60 /* Sources */,
+				EE1205635128DF4096321BAF82DAEFA1 /* Frameworks */,
+				98229424A369F4BA0BE9B48B43495A6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GoogleUserMessagingPlatform-UserMessagingPlatformResources";
+			productName = UserMessagingPlatformResources;
+			productReference = 8A377C18F92A8A511869ADA54B5652D2 /* GoogleUserMessagingPlatform-UserMessagingPlatformResources */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A7F345B303CE3FF661A6BC1ADC969D8B /* Pods-Go Tips Split-Go Tips SplitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD691BC4F7989E095E3AF6B08DA9DD9 /* Build configuration list for PBXNativeTarget "Pods-Go Tips Split-Go Tips SplitUITests" */;
+			buildPhases = (
+				F9C7C2DC54104D212FBC685B0437F7C2 /* Headers */,
+				6343C3F8DB3089A1CE7E291023F04AF4 /* Sources */,
+				1EA550AEA1F466929A358289D07A5D2E /* Frameworks */,
+				E20368FBFB82673C6B86E0FE17A4840B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F2F61BC030F1F0F9F43F19C063AFBEC /* PBXTargetDependency */,
+				9C87D15FA0EB85FC31633BA7857BA7DF /* PBXTargetDependency */,
+			);
+			name = "Pods-Go Tips Split-Go Tips SplitUITests";
+			productName = Pods_Go_Tips_Split_Go_Tips_SplitUITests;
+			productReference = 17B65E8D2CE539B50FDAFE6FB91F9AF4 /* Pods-Go Tips Split-Go Tips SplitUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A5E45E22A808C95505627F337C7DC97D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEA3B3A570634836C0457F3D7CEF1699 /* Google-Mobile-Ads-SDK */,
+				36FD0958A0EC4A0FCF599E9B22719B03 /* Google-Mobile-Ads-SDK-GoogleMobileAdsResources */,
+				458B188365A307B3C128ABF524D1A3E3 /* GoogleUserMessagingPlatform */,
+				63A7C675C13F87669AF56006D943998B /* GoogleUserMessagingPlatform-UserMessagingPlatformResources */,
+				333C762DD321C4A23D2150859B8BA8CF /* Pods-Go Tips Split */,
+				A7F345B303CE3FF661A6BC1ADC969D8B /* Pods-Go Tips Split-Go Tips SplitUITests */,
+				19FF87B931AE1C0527952E7F7EBC9324 /* Pods-Go Tips SplitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AFF56F4AC5CA1711FD6D2EFCD7359EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E68153A3761F438D73FD70F6A5A0ED2E /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E6B166A7D17229BE98648A23E427445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98229424A369F4BA0BE9B48B43495A6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AFC1000243C6954FF438CAF78FC23D3 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C961273CEDCEA40534430F3E846109BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20368FBFB82673C6B86E0FE17A4840B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E13F79CB7DDEF28E892274F993A056A6 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/GoogleUserMessagingPlatform/GoogleUserMessagingPlatform-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/GoogleUserMessagingPlatform/GoogleUserMessagingPlatform-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/GoogleUserMessagingPlatform/GoogleUserMessagingPlatform-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5879B1A146D320B75202C70537BC4A4 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Google-Mobile-Ads-SDK/Google-Mobile-Ads-SDK-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Google-Mobile-Ads-SDK/Google-Mobile-Ads-SDK-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Google-Mobile-Ads-SDK/Google-Mobile-Ads-SDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EEF75BDBA86CBD63112E30636131D87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3678D3C6C836408764DA9FEB8968388D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C61C1B9E2DD2EF549B38C2FF215A584 /* Pods-Go Tips SplitTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6343C3F8DB3089A1CE7E291023F04AF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C89437E54DD75237A09DA3D1EF24747A /* Pods-Go Tips Split-Go Tips SplitUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82ACFAADA7761999E69404887C237D60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF9C7EA7B0F4244599012AFD65F713E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B24DAAADB96BAC5D9E3184D45ED0EF /* Pods-Go Tips Split-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27A0E29BE302AAF9F6015186EF3D0F17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleUserMessagingPlatform;
+			target = 458B188365A307B3C128ABF524D1A3E3 /* GoogleUserMessagingPlatform */;
+			targetProxy = 010BF4EB108DAF7A8C6EC690DA829931 /* PBXContainerItemProxy */;
+		};
+		43AE07024803B67C6F60E8D76FD5B88B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Go Tips Split";
+			target = 333C762DD321C4A23D2150859B8BA8CF /* Pods-Go Tips Split */;
+			targetProxy = 6100B9425F97D44A08F3A4682FA0ECA3 /* PBXContainerItemProxy */;
+		};
+		5196225EA19AD0827A9008B9CC3B3B9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Google-Mobile-Ads-SDK";
+			target = FEA3B3A570634836C0457F3D7CEF1699 /* Google-Mobile-Ads-SDK */;
+			targetProxy = 419A5F1D3D3CE48D358BFCBCC69D2392 /* PBXContainerItemProxy */;
+		};
+		5B6EAAB7482396FA1B9D70F3810CA338 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleUserMessagingPlatform;
+			target = 458B188365A307B3C128ABF524D1A3E3 /* GoogleUserMessagingPlatform */;
+			targetProxy = F92B383CE2EA2DFC948FF5D70FE0450A /* PBXContainerItemProxy */;
+		};
+		7D6386E747512C526152EC05015C3AB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GoogleUserMessagingPlatform-UserMessagingPlatformResources";
+			target = 63A7C675C13F87669AF56006D943998B /* GoogleUserMessagingPlatform-UserMessagingPlatformResources */;
+			targetProxy = 8E05A49083F79A8BE58784CB2F52A3BE /* PBXContainerItemProxy */;
+		};
+		8C2F52F1178C49B2A1E10EFE1DBF5DC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Google-Mobile-Ads-SDK-GoogleMobileAdsResources";
+			target = 36FD0958A0EC4A0FCF599E9B22719B03 /* Google-Mobile-Ads-SDK-GoogleMobileAdsResources */;
+			targetProxy = 7AA0F0B847D8AC37DA1275FCCB835893 /* PBXContainerItemProxy */;
+		};
+		9C87D15FA0EB85FC31633BA7857BA7DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleUserMessagingPlatform;
+			target = 458B188365A307B3C128ABF524D1A3E3 /* GoogleUserMessagingPlatform */;
+			targetProxy = 6BDD409ECDB7F30EF19D7CEFF577B6F1 /* PBXContainerItemProxy */;
+		};
+		9F2F61BC030F1F0F9F43F19C063AFBEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Google-Mobile-Ads-SDK";
+			target = FEA3B3A570634836C0457F3D7CEF1699 /* Google-Mobile-Ads-SDK */;
+			targetProxy = 0A9EB9EF5F05534E31D308A32FE59978 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07590C428CD2CAE6A8D268F12AF428E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19466144342C9D8AB7676A2D78EDBE3F /* Pods-Go Tips Split-Go Tips SplitUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Go Tips Split-Go Tips SplitUITests/Pods-Go Tips Split-Go Tips SplitUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Go Tips Split-Go Tips SplitUITests/Pods-Go Tips Split-Go Tips SplitUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		07794809D5E92AEF7A27292290470181 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73AFC648C9FA4AB7FBD6D450CC6CAD93 /* Google-Mobile-Ads-SDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		286F66374A513161803AFD10C97A9AEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3F76929A542CB92C1A0267A01217B44 /* GoogleUserMessagingPlatform.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GoogleUserMessagingPlatform";
+				IBSC_MODULE = GoogleUserMessagingPlatform;
+				INFOPLIST_FILE = "Target Support Files/GoogleUserMessagingPlatform/ResourceBundle-UserMessagingPlatformResources-GoogleUserMessagingPlatform-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = UserMessagingPlatformResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		2E654D46FE7A23DFA7723B70C2EFB75E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 871F965A97B01247B73F41F22A8C9A68 /* Pods-Go Tips SplitTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Go Tips SplitTests/Pods-Go Tips SplitTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Go Tips SplitTests/Pods-Go Tips SplitTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		44764ED1D920A62C007EA79CB7D874F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4724C637ABEA38C56263BBD8C722514 /* Pods-Go Tips Split-Go Tips SplitUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Go Tips Split-Go Tips SplitUITests/Pods-Go Tips Split-Go Tips SplitUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Go Tips Split-Go Tips SplitUITests/Pods-Go Tips Split-Go Tips SplitUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5E7AEF0DC581F2CBF56276C660BCFEF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F62684ABBE16D1827C388A9470A1957E /* GoogleUserMessagingPlatform.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GoogleUserMessagingPlatform";
+				IBSC_MODULE = GoogleUserMessagingPlatform;
+				INFOPLIST_FILE = "Target Support Files/GoogleUserMessagingPlatform/ResourceBundle-UserMessagingPlatformResources-GoogleUserMessagingPlatform-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = UserMessagingPlatformResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		633CADF204C662DC9B8339CFEA2B3D73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE8DFFE989BECD3A7680D610B6685FD8 /* Google-Mobile-Ads-SDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Google-Mobile-Ads-SDK";
+				IBSC_MODULE = Google_Mobile_Ads_SDK;
+				INFOPLIST_FILE = "Target Support Files/Google-Mobile-Ads-SDK/ResourceBundle-GoogleMobileAdsResources-Google-Mobile-Ads-SDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = GoogleMobileAdsResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		89BAF9949E143AAE213DBE578E156F6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D6DC0F18102942F2810201588539ACE /* Pods-Go Tips Split.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Go Tips Split/Pods-Go Tips Split-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Go Tips Split/Pods-Go Tips Split.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		960B89FF8189FEDFF6A896EFB995F119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22C68AF5014D42B1A88F87164F1270AF /* Pods-Go Tips Split.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Go Tips Split/Pods-Go Tips Split-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Go Tips Split/Pods-Go Tips Split.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A26F88DAB595843E81C3140A2E275C7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3F76929A542CB92C1A0267A01217B44 /* GoogleUserMessagingPlatform.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFC2A3074AFDEA094187DD0C92DA6600 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE8DFFE989BECD3A7680D610B6685FD8 /* Google-Mobile-Ads-SDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE77E1BA9AC7BE57CF89D639C35E3EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F62684ABBE16D1827C388A9470A1957E /* GoogleUserMessagingPlatform.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E50F343B47FB39E326F5DF8678109346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDFB6D404B331B1DF6A24C5493213885 /* Pods-Go Tips SplitTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Go Tips SplitTests/Pods-Go Tips SplitTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Go Tips SplitTests/Pods-Go Tips SplitTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E69C6D85415A3A2E4C0290BA57315CB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73AFC648C9FA4AB7FBD6D450CC6CAD93 /* Google-Mobile-Ads-SDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Google-Mobile-Ads-SDK";
+				IBSC_MODULE = Google_Mobile_Ads_SDK;
+				INFOPLIST_FILE = "Target Support Files/Google-Mobile-Ads-SDK/ResourceBundle-GoogleMobileAdsResources-Google-Mobile-Ads-SDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = GoogleMobileAdsResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1ECD3E57FC060DF7315CBEE01258D4CA /* Build configuration list for PBXNativeTarget "Pods-Go Tips SplitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E50F343B47FB39E326F5DF8678109346 /* Debug */,
+				2E654D46FE7A23DFA7723B70C2EFB75E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57995FBA13A1EC48B95541441236618A /* Build configuration list for PBXNativeTarget "GoogleUserMessagingPlatform-UserMessagingPlatformResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				286F66374A513161803AFD10C97A9AEB /* Debug */,
+				5E7AEF0DC581F2CBF56276C660BCFEF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AFA28686097D4D6A9DD552442DAD3BE /* Build configuration list for PBXAggregateTarget "Google-Mobile-Ads-SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC2A3074AFDEA094187DD0C92DA6600 /* Debug */,
+				07794809D5E92AEF7A27292290470181 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67B00122EA65638BC3551937E4052599 /* Build configuration list for PBXNativeTarget "Google-Mobile-Ads-SDK-GoogleMobileAdsResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				633CADF204C662DC9B8339CFEA2B3D73 /* Debug */,
+				E69C6D85415A3A2E4C0290BA57315CB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9758644FD92F35D113D0EEBD02ADFB6B /* Build configuration list for PBXNativeTarget "Pods-Go Tips Split" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89BAF9949E143AAE213DBE578E156F6C /* Debug */,
+				960B89FF8189FEDFF6A896EFB995F119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB43E3A9EED347F1A5A4EAE045FD8AE9 /* Build configuration list for PBXAggregateTarget "GoogleUserMessagingPlatform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A26F88DAB595843E81C3140A2E275C7B /* Debug */,
+				CE77E1BA9AC7BE57CF89D639C35E3EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD691BC4F7989E095E3AF6B08DA9DD9 /* Build configuration list for PBXNativeTarget "Pods-Go Tips Split-Go Tips SplitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07590C428CD2CAE6A8D268F12AF428E4 /* Debug */,
+				44764ED1D920A62C007EA79CB7D874F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

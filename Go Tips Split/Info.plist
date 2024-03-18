@@ -3,9 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>UIAppFonts</key>
+    
 	<array>
 		<string>Gagalin-Regular.otf</string>
 	</array>
+    <key>GADApplicationIdentifier</key>
+    <string>ca-app-pub-4362761035702275~9359448210</string>
+    
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

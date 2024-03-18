@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2380440D40205BD81D2E7732 /* Pods_Go_Tips_SplitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8993F5C25143634D3D2E785E /* Pods_Go_Tips_SplitTests.framework */; };
+		7A12B2F005E2D616B9FCC0C9 /* Pods_Go_Tips_Split_Go_Tips_SplitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 917C2DF18A354F52405006FA /* Pods_Go_Tips_Split_Go_Tips_SplitUITests.framework */; };
 		8C657C7B2BA77CEF00150E1B /* Gagalin-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8C657C7A2BA77CEF00150E1B /* Gagalin-Regular.otf */; };
-		8C657C7D2BA7C43E00150E1B /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C657C7C2BA7C43E00150E1B /* LaunchScreenViewController.swift */; };
 		8CF39BB92BA5BC9E00101C43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF39BB82BA5BC9E00101C43 /* AppDelegate.swift */; };
 		8CF39BBB2BA5BC9E00101C43 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF39BBA2BA5BC9E00101C43 /* SceneDelegate.swift */; };
 		8CF39BC02BA5BC9E00101C43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CF39BBE2BA5BC9E00101C43 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 		8CF39BDC2BA5BCA000101C43 /* Go_Tips_SplitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF39BDB2BA5BCA000101C43 /* Go_Tips_SplitUITestsLaunchTests.swift */; };
 		8CF39BEA2BA7212200101C43 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF39BE92BA7212200101C43 /* CalculatorViewController.swift */; };
 		8CF39BEC2BA7217900101C43 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF39BEB2BA7217900101C43 /* ResultsViewController.swift */; };
+		C95AD148BD7A20EE5F2D4AEC /* Pods_Go_Tips_Split.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A619C040A50DD16E1622035A /* Pods_Go_Tips_Split.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3DE5DE6A9A999BDC8A20B2C0 /* Pods-Go Tips Split.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go Tips Split.release.xcconfig"; path = "Target Support Files/Pods-Go Tips Split/Pods-Go Tips Split.release.xcconfig"; sourceTree = "<group>"; };
+		48C89E411B102AC5999A6FCA /* Pods-Go Tips SplitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go Tips SplitTests.release.xcconfig"; path = "Target Support Files/Pods-Go Tips SplitTests/Pods-Go Tips SplitTests.release.xcconfig"; sourceTree = "<group>"; };
+		51ECF4D8BD3B3442C0DB71EF /* Pods-Go Tips Split-Go Tips SplitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go Tips Split-Go Tips SplitUITests.debug.xcconfig"; path = "Target Support Files/Pods-Go Tips Split-Go Tips SplitUITests/Pods-Go Tips Split-Go Tips SplitUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6559D5C0C331E1FDCA5D3A88 /* Pods-Go Tips Split-Go Tips SplitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go Tips Split-Go Tips SplitUITests.release.xcconfig"; path = "Target Support Files/Pods-Go Tips Split-Go Tips SplitUITests/Pods-Go Tips Split-Go Tips SplitUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6890882DB1596D5C61B16B19 /* Pods-Go Tips SplitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go Tips SplitTests.debug.xcconfig"; path = "Target Support Files/Pods-Go Tips SplitTests/Pods-Go Tips SplitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8993F5C25143634D3D2E785E /* Pods_Go_Tips_SplitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Go_Tips_SplitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C657C7A2BA77CEF00150E1B /* Gagalin-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gagalin-Regular.otf"; sourceTree = "<group>"; };
-		8C657C7C2BA7C43E00150E1B /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
 		8CF39BB52BA5BC9E00101C43 /* Go Tips Split.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Go Tips Split.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CF39BB82BA5BC9E00101C43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CF39BBA2BA5BC9E00101C43 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +62,9 @@
 		8CF39BDB2BA5BCA000101C43 /* Go_Tips_SplitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Go_Tips_SplitUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8CF39BE92BA7212200101C43 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 		8CF39BEB2BA7217900101C43 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		917C2DF18A354F52405006FA /* Pods_Go_Tips_Split_Go_Tips_SplitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Go_Tips_Split_Go_Tips_SplitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98494C4D02C66F84268C9519 /* Pods-Go Tips Split.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go Tips Split.debug.xcconfig"; path = "Target Support Files/Pods-Go Tips Split/Pods-Go Tips Split.debug.xcconfig"; sourceTree = "<group>"; };
+		A619C040A50DD16E1622035A /* Pods_Go_Tips_Split.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Go_Tips_Split.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C95AD148BD7A20EE5F2D4AEC /* Pods_Go_Tips_Split.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2380440D40205BD81D2E7732 /* Pods_Go_Tips_SplitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,12 +88,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A12B2F005E2D616B9FCC0C9 /* Pods_Go_Tips_Split_Go_Tips_SplitUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D2E2BBD657C38CF74177891 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98494C4D02C66F84268C9519 /* Pods-Go Tips Split.debug.xcconfig */,
+				3DE5DE6A9A999BDC8A20B2C0 /* Pods-Go Tips Split.release.xcconfig */,
+				51ECF4D8BD3B3442C0DB71EF /* Pods-Go Tips Split-Go Tips SplitUITests.debug.xcconfig */,
+				6559D5C0C331E1FDCA5D3A88 /* Pods-Go Tips Split-Go Tips SplitUITests.release.xcconfig */,
+				6890882DB1596D5C61B16B19 /* Pods-Go Tips SplitTests.debug.xcconfig */,
+				48C89E411B102AC5999A6FCA /* Pods-Go Tips SplitTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8C657C792BA77CCD00150E1B /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +123,8 @@
 				8CF39BCE2BA5BCA000101C43 /* Go Tips SplitTests */,
 				8CF39BD82BA5BCA000101C43 /* Go Tips SplitUITests */,
 				8CF39BB62BA5BC9E00101C43 /* Products */,
+				3D2E2BBD657C38CF74177891 /* Pods */,
+				C2F383C40F6E52376A0BC39C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,9 +175,18 @@
 			children = (
 				8CF39BE92BA7212200101C43 /* CalculatorViewController.swift */,
 				8CF39BEB2BA7217900101C43 /* ResultsViewController.swift */,
-				8C657C7C2BA7C43E00150E1B /* LaunchScreenViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		C2F383C40F6E52376A0BC39C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A619C040A50DD16E1622035A /* Pods_Go_Tips_Split.framework */,
+				917C2DF18A354F52405006FA /* Pods_Go_Tips_Split_Go_Tips_SplitUITests.framework */,
+				8993F5C25143634D3D2E785E /* Pods_Go_Tips_SplitTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CF39BDF2BA5BCA000101C43 /* Build configuration list for PBXNativeTarget "Go Tips Split" */;
 			buildPhases = (
+				29308DB15C49684DED0BDB4B /* [CP] Check Pods Manifest.lock */,
 				8CF39BB12BA5BC9E00101C43 /* Sources */,
 				8CF39BB22BA5BC9E00101C43 /* Frameworks */,
 				8CF39BB32BA5BC9E00101C43 /* Resources */,
+				FF5139E6FD22F46FAE5FB3CF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CF39BE22BA5BCA000101C43 /* Build configuration list for PBXNativeTarget "Go Tips SplitTests" */;
 			buildPhases = (
+				04EAF60CE325BB46C470C822 /* [CP] Check Pods Manifest.lock */,
 				8CF39BC72BA5BCA000101C43 /* Sources */,
 				8CF39BC82BA5BCA000101C43 /* Frameworks */,
 				8CF39BC92BA5BCA000101C43 /* Resources */,
@@ -194,9 +234,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CF39BE52BA5BCA000101C43 /* Build configuration list for PBXNativeTarget "Go Tips SplitUITests" */;
 			buildPhases = (
+				CAB0019562FAB8D9AD8799BE /* [CP] Check Pods Manifest.lock */,
 				8CF39BD12BA5BCA000101C43 /* Sources */,
 				8CF39BD22BA5BCA000101C43 /* Frameworks */,
 				8CF39BD32BA5BCA000101C43 /* Resources */,
+				D707446E1B60AFD83AFE995E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -279,6 +321,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04EAF60CE325BB46C470C822 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Go Tips SplitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29308DB15C49684DED0BDB4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Go Tips Split-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAB0019562FAB8D9AD8799BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Go Tips Split-Go Tips SplitUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D707446E1B60AFD83AFE995E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Go Tips Split-Go Tips SplitUITests/Pods-Go Tips Split-Go Tips SplitUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Go Tips Split-Go Tips SplitUITests/Pods-Go Tips Split-Go Tips SplitUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Go Tips Split-Go Tips SplitUITests/Pods-Go Tips Split-Go Tips SplitUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF5139E6FD22F46FAE5FB3CF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Go Tips Split/Pods-Go Tips Split-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Go Tips Split/Pods-Go Tips Split-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Go Tips Split/Pods-Go Tips Split-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8CF39BB12BA5BC9E00101C43 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -287,7 +432,6 @@
 				8CF39BB92BA5BC9E00101C43 /* AppDelegate.swift in Sources */,
 				8CF39BEA2BA7212200101C43 /* CalculatorViewController.swift in Sources */,
 				8CF39BEC2BA7217900101C43 /* ResultsViewController.swift in Sources */,
-				8C657C7D2BA7C43E00150E1B /* LaunchScreenViewController.swift in Sources */,
 				8CF39BBB2BA5BC9E00101C43 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,7 +525,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -444,7 +588,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -465,6 +609,7 @@
 		};
 		8CF39BE02BA5BCA000101C43 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98494C4D02C66F84268C9519 /* Pods-Go Tips Split.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -496,6 +641,7 @@
 		};
 		8CF39BE12BA5BCA000101C43 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DE5DE6A9A999BDC8A20B2C0 /* Pods-Go Tips Split.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -527,6 +673,7 @@
 		};
 		8CF39BE32BA5BCA000101C43 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6890882DB1596D5C61B16B19 /* Pods-Go Tips SplitTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -547,6 +694,7 @@
 		};
 		8CF39BE42BA5BCA000101C43 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48C89E411B102AC5999A6FCA /* Pods-Go Tips SplitTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -567,6 +715,7 @@
 		};
 		8CF39BE62BA5BCA000101C43 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51ECF4D8BD3B3442C0DB71EF /* Pods-Go Tips Split-Go Tips SplitUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -585,6 +734,7 @@
 		};
 		8CF39BE72BA5BCA000101C43 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6559D5C0C331E1FDCA5D3A88 /* Pods-Go Tips Split-Go Tips SplitUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
