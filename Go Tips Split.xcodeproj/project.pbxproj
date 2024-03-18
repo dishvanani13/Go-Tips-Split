@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8C657C7B2BA77CEF00150E1B /* Gagalin-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8C657C7A2BA77CEF00150E1B /* Gagalin-Regular.otf */; };
+		8C657C7D2BA7C43E00150E1B /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C657C7C2BA7C43E00150E1B /* LaunchScreenViewController.swift */; };
 		8CF39BB92BA5BC9E00101C43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF39BB82BA5BC9E00101C43 /* AppDelegate.swift */; };
 		8CF39BBB2BA5BC9E00101C43 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF39BBA2BA5BC9E00101C43 /* SceneDelegate.swift */; };
 		8CF39BC02BA5BC9E00101C43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CF39BBE2BA5BC9E00101C43 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		8C657C7A2BA77CEF00150E1B /* Gagalin-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gagalin-Regular.otf"; sourceTree = "<group>"; };
+		8C657C7C2BA7C43E00150E1B /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
 		8CF39BB52BA5BC9E00101C43 /* Go Tips Split.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Go Tips Split.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CF39BB82BA5BC9E00101C43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CF39BBA2BA5BC9E00101C43 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 			children = (
 				8CF39BE92BA7212200101C43 /* CalculatorViewController.swift */,
 				8CF39BEB2BA7217900101C43 /* ResultsViewController.swift */,
+				8C657C7C2BA7C43E00150E1B /* LaunchScreenViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 				8CF39BB92BA5BC9E00101C43 /* AppDelegate.swift in Sources */,
 				8CF39BEA2BA7212200101C43 /* CalculatorViewController.swift in Sources */,
 				8CF39BEC2BA7217900101C43 /* ResultsViewController.swift in Sources */,
+				8C657C7D2BA7C43E00150E1B /* LaunchScreenViewController.swift in Sources */,
 				8CF39BBB2BA5BC9E00101C43 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

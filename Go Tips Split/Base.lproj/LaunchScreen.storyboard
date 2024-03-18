@@ -21,8 +21,8 @@
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Go Tips Split" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8yG-AJ-l17">
-                                        <rect key="frame" x="69.666666666666686" y="399" width="254" height="54"/>
-                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="45"/>
+                                        <rect key="frame" x="58.333333333333343" y="392" width="276.66666666666663" height="68.333333333333314"/>
+                                        <fontDescription key="fontDescription" name="Impact" family="Impact" pointSize="55"/>
                                         <color key="textColor" red="0.70573634519999995" green="0.67593940019999998" blue="0.19144590280000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </label>
                                 </subviews>
