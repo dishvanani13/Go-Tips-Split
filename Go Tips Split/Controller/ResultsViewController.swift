@@ -33,7 +33,7 @@ class ResultsViewController: UIViewController {
     }
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-        banner.frame = CGRect(x: 0, y: view.frame.size.height-50, width: view.frame.size.width, height: 50).integral
+        banner.frame = CGRect(x: 0, y: view.frame.size.height-65, width: view.frame.size.width, height: 50).integral
     }
     @IBAction func recalculatePressed(_ sender: UIButton) {
         

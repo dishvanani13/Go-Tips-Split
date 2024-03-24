@@ -2,14 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>GADApplicationIdentifier</key>
+	<string>ca-app-pub-4362761035702275~9359448210</string>
 	<key>UIAppFonts</key>
-    
 	<array>
 		<string>Gagalin-Regular.otf</string>
 	</array>
-    <key>GADApplicationIdentifier</key>
-    <string>ca-app-pub-4362761035702275~9359448210</string>
-    
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

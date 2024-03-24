@@ -20,6 +20,17 @@ class CalculatorViewController: UIViewController {
     var billTotal = 0.0
     var finalResult = "0.0"
     
+    override func viewDidLoad() {
+            super.viewDidLoad()
+            
+            // Set the view controller as the delegate for the text field
+            billTextField.delegate = self
+            
+            // Set the keyboard type to decimal pad
+            billTextField.keyboardType = .decimalPad
+        }
+   
+    
     @IBAction func tipChanged(_ sender: UIButton) {
         
         billTextField.endEditing(true)
@@ -64,5 +75,27 @@ class CalculatorViewController: UIViewController {
     }
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)
+    }
+}
+extension CalculatorViewController : UITextFieldDelegate {
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+            // Ensure that the text will be a valid decimal number after the change
+            if let text = textField.text {
+                // Check if the new string is empty, which is allowed
+                if string.isEmpty {
+                    return true
+                }
+                
+                // Check if the new string contains only digits or a single decimal point
+                let isNumeric = CharacterSet.decimalDigits.isSuperset(of: CharacterSet(charactersIn: string))
+                let existingTextHasDecimalPoint = text.contains(".")
+                let newTextHasDecimalPoint = string.contains(".")
+                
+                // Allow the change if it's a valid decimal input
+                return isNumeric || (!existingTextHasDecimalPoint && newTextHasDecimalPoint)
+            }
+            
+            return false
+        
     }
 }

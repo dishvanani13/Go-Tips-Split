@@ -15,9 +15,6 @@
 		8CF39BC02BA5BC9E00101C43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CF39BBE2BA5BC9E00101C43 /* Main.storyboard */; };
 		8CF39BC22BA5BCA000101C43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CF39BC12BA5BCA000101C43 /* Assets.xcassets */; };
 		8CF39BC52BA5BCA000101C43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CF39BC32BA5BCA000101C43 /* LaunchScreen.storyboard */; };
-		8CF39BD02BA5BCA000101C43 /* Go_Tips_SplitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF39BCF2BA5BCA000101C43 /* Go_Tips_SplitTests.swift */; };
-		8CF39BDA2BA5BCA000101C43 /* Go_Tips_SplitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF39BD92BA5BCA000101C43 /* Go_Tips_SplitUITests.swift */; };
-		8CF39BDC2BA5BCA000101C43 /* Go_Tips_SplitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF39BDB2BA5BCA000101C43 /* Go_Tips_SplitUITestsLaunchTests.swift */; };
 		8CF39BEA2BA7212200101C43 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF39BE92BA7212200101C43 /* CalculatorViewController.swift */; };
 		8CF39BEC2BA7217900101C43 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF39BEB2BA7217900101C43 /* ResultsViewController.swift */; };
 		C95AD148BD7A20EE5F2D4AEC /* Pods_Go_Tips_Split.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A619C040A50DD16E1622035A /* Pods_Go_Tips_Split.framework */; };
@@ -56,10 +53,7 @@
 		8CF39BC42BA5BCA000101C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CF39BC62BA5BCA000101C43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CF39BCB2BA5BCA000101C43 /* Go Tips SplitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Go Tips SplitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8CF39BCF2BA5BCA000101C43 /* Go_Tips_SplitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Go_Tips_SplitTests.swift; sourceTree = "<group>"; };
 		8CF39BD52BA5BCA000101C43 /* Go Tips SplitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Go Tips SplitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8CF39BD92BA5BCA000101C43 /* Go_Tips_SplitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Go_Tips_SplitUITests.swift; sourceTree = "<group>"; };
-		8CF39BDB2BA5BCA000101C43 /* Go_Tips_SplitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Go_Tips_SplitUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8CF39BE92BA7212200101C43 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 		8CF39BEB2BA7217900101C43 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 		917C2DF18A354F52405006FA /* Pods_Go_Tips_Split_Go_Tips_SplitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Go_Tips_Split_Go_Tips_SplitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,8 +114,6 @@
 			isa = PBXGroup;
 			children = (
 				8CF39BB72BA5BC9E00101C43 /* Go Tips Split */,
-				8CF39BCE2BA5BCA000101C43 /* Go Tips SplitTests */,
-				8CF39BD82BA5BCA000101C43 /* Go Tips SplitUITests */,
 				8CF39BB62BA5BC9E00101C43 /* Products */,
 				3D2E2BBD657C38CF74177891 /* Pods */,
 				C2F383C40F6E52376A0BC39C /* Frameworks */,
@@ -151,23 +143,6 @@
 				8CF39BC62BA5BCA000101C43 /* Info.plist */,
 			);
 			path = "Go Tips Split";
-			sourceTree = "<group>";
-		};
-		8CF39BCE2BA5BCA000101C43 /* Go Tips SplitTests */ = {
-			isa = PBXGroup;
-			children = (
-				8CF39BCF2BA5BCA000101C43 /* Go_Tips_SplitTests.swift */,
-			);
-			path = "Go Tips SplitTests";
-			sourceTree = "<group>";
-		};
-		8CF39BD82BA5BCA000101C43 /* Go Tips SplitUITests */ = {
-			isa = PBXGroup;
-			children = (
-				8CF39BD92BA5BCA000101C43 /* Go_Tips_SplitUITests.swift */,
-				8CF39BDB2BA5BCA000101C43 /* Go_Tips_SplitUITestsLaunchTests.swift */,
-			);
-			path = "Go Tips SplitUITests";
 			sourceTree = "<group>";
 		};
 		8CF39BE82BA720B800101C43 /* Controller */ = {
@@ -440,7 +415,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CF39BD02BA5BCA000101C43 /* Go_Tips_SplitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,8 +422,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CF39BDA2BA5BCA000101C43 /* Go_Tips_SplitUITests.swift in Sources */,
-				8CF39BDC2BA5BCA000101C43 /* Go_Tips_SplitUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -623,8 +595,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -655,8 +627,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
